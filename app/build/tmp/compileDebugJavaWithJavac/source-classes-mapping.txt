@@ -1,0 +1,8 @@
+com/openclassrooms/realestatemanager/Utils.java
+ com.openclassrooms.realestatemanager.Utils
+com/openclassrooms/realestatemanager/SecondActivity.java
+ com.openclassrooms.realestatemanager.SecondActivity
+com/openclassrooms/realestatemanager/BuildConfig.java
+ com.openclassrooms.realestatemanager.BuildConfig
+com/openclassrooms/realestatemanager/MainActivity.java
+ com.openclassrooms.realestatemanager.MainActivity
