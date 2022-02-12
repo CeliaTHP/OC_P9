@@ -2,12 +2,14 @@ package com.openclassrooms.realestatemanager;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private TextView textViewMain;
     private TextView textViewQuantity;
+    private final static String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
         this.configureTextViewMain();
         this.configureTextViewQuantity();
+
+        Log.d(TAG,Utils.convertDollarToEuro(50) + " ");
+        Log.d(TAG,Utils.convertEuroToDollars(44) + " ");
+
     }
 
     private void configureTextViewMain(){
